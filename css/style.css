@@ -210,19 +210,21 @@ header ul li:hover{
 }
 
 .services-flex-block{
+    width: 25%;
     text-align: center;
     margin-top: 55px;
-    padding: 0 20px;
+
 }
 .services-flex-container{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: baseline;
     flex-wrap: wrap;
     padding: 45px 0 100px 0;
 }
 .services-flex-block span{
     display: block;
+    padding: 0 25px;
 }
 .services-flex-block span:first-of-type{
     font-size: 12px;
@@ -294,13 +296,13 @@ section.form{
     text-align: center;
     background-color: #f5f5f5;
     width: 100%;
-    padding: 100px;
 }
 .form h2{
     color: #191919;
     font-size: 30px;
     font-family: 'Montserrat', cursive;
     margin-bottom: 30px;
+    padding-top: 100px;
 }
 .form span{
     color: #787878;
@@ -343,6 +345,39 @@ section.form{
     width: 180px;
     line-height: 53px;
     margin-top: 30px;
+    margin-bottom: 100px;
+}
+footer{
+    background-color: #141414;
+    width: 100%;
+    padding: 100px 0;
+    font-family: 'Montserrat', cursive;
+    font-size: 15px;
+    color: white;
+    line-height: 30px;
+}
+.footer-flex-container{
+    display: flex;
+    justify-content: space-between;
+}
+footer span{
+    display: block;
+}
+footer h5{
+    font-size: 18px;
+    margin-bottom: 18px;
+}
+footer article ul{
+    display: inline-block;
+
+}
+footer ul li{
+    list-style: none;
+}
+
+footer ul li a{
+    text-decoration: none;
+    color: white;
 }
 
 
