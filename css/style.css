@@ -34,12 +34,16 @@ body{
 }
 header ul li{
     display: inline-block;
+}
+header ul li a{
+    text-decoration: none;
     font-size: 12px;
     color: #191919;
     font-family: 'Montserrat', cursive;
     margin-right: 30px;
+    list-style: none;
 }
-header ul li:hover{
+header ul li a:hover{
     color: #10c9c3;
 }
 .flex-container{
